@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<form method="post">
+  {% csrf_token %}
+  <fieldset>
+    <div class="container">
+        {{ form.non_field_errors }}
+        {% for field in form %}
+        <div class="row">
+            <div class="form-group col-xs-5 col-lg-5">
+                  {{ field.label_tag }}
+                  {{ field }}
+                  {{ field.errors }}
+            </div>  
+         </div>     
+        {% endfor %}
+        <div class="row">
+          <!--<h3>Status<h3> -->
+          <div class="form-group col-xs-5 col-lg-1 ">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+          </div>  
+        </div>     
+    </div>
+  </fieldset> 
+</form>    
+{% endblock %}
