@@ -1,4 +1,4 @@
-Task list CRUD Django + Boostrap projet
+## Task list CRUD Django + Boostrap project
 
 ### Instalação:
 
