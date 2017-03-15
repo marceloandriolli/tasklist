@@ -3,8 +3,8 @@
 ### Instalação:
 
 
-    `git clone https://github.com/marceloandriolli/tasklist.git`
-    `pip install -r requirements.txt`
+    git clone https://github.com/marceloandriolli/tasklist.git
+    pip install -r requirements.txt
 
 
 ### Requisitos:
