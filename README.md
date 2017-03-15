@@ -1,15 +1,17 @@
-=============
-Instalação:
-=============
+Task list CRUD Django + Boostrap projet
 
-    git clone https://github.com/marceloandriolli/tasklist.git
-    pip install -r requirements.txt
+### Instalação:
 
-=============
-Requisitos:
-=============
+
+    `git clone https://github.com/marceloandriolli/tasklist.git`
+    `pip install -r requirements.txt`
+
+
+### Requisitos:
 
 * Adicionar novas tarefas.
 * Editar o conteúdo da task.
 * Deletar uma task.
+
+
 
